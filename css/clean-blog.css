@@ -10,6 +10,12 @@ body {
   color: #404040;
 }
 
+ul li {
+  display: inline;
+  font-size: 12px;
+  padding: 0 0 0px 5px;
+}
+
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -214,11 +220,24 @@ hr.small {
   font-weight: 700;
   padding: 20px 0 20px 0;
 }
-
-.say-heading {
+.say-left,
+.say-right {
   margin: 100px 0 100px 0;
   display: block; 
 }
+#feature {
+  margin: 75px 0 30px 0;
+}
+#say-logo {
+  margin-bottom: 40px;
+}
+.ready-heading {
+  margin-top: 80px;
+}
+.ready-promo, .ready-logo {
+  margin: 7px 0 40px 0;
+}
+
 .caption {
   text-align: center;
   font-size: 14px;
@@ -229,8 +248,12 @@ hr.small {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-footer {
-  padding: 50px 0 65px;
+.footer-top {
+  padding: 20px 0 30px 0;
+}
+.footer-bottom{
+  height: 30px;
+  background-color: blue;
 }
 footer .list-inline {
   margin: 0;
