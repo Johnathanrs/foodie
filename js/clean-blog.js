@@ -1029,4 +1029,11 @@ jQuery(document).ready(function($) {
                 this.previousTop = currentTop;
             });
     }
+	
+	 $(window).scroll(function() {
+		if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
+			$('.box').removeClass('.hide');
+        }
+
+	});
 });
