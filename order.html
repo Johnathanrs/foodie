@@ -86,60 +86,30 @@
 
     <!-- Main Content -->
     <div class="form">
-	<div class='container'>
-		<div class='formBlock1 col-md-offset-2 col-md-8 col-md-offset-2'>
-			<div class='row'>
-				<h3><b>Thank you for shopping with us!</b></h3>'
-				<div class='col-md-6 formBlock1-div'>
-					<label for='name' class='form-group'>
-						<span>Please enter your name:<span>
-						<input id='name' type='text' max='30' placeholder='Johnathan' autofocus required autocomplete='a_name'>
-					</label>
-					<label for='email' class='form-group'> Would you like to receive promotions from us?
-						<input id='email' type='text' max='30' placeholder='something@gmail.com' autocomplete='a_email'>
-					</label>
-				</div>
-				<div class='col-md-offset-3 col-md-3 formBlock1-div' style='text-align: center'>
-					<img src='images/img1_small.jpg' srcset='images/img1_small.jpg 400w ,images/img1_large.jpg 800w' sizes='(max-width: 400px) 50%, 25%' alt='NES Console'></img>
-				</div>
-			</div>
-			<hr></hr>
-			<div class='col-md-6 formBlock1-div'>
-				<label for='address' class='form-group'>
-					<span>Please enter your address:</span>
-					<input id='address' type='text' max='30' placeholder='1330 Amber Lane' required autocomplete='a_address'> 
-				</label>
-				<label for='state' class='form-group'>
-					<span>What is the state?</span>
-					<select id='state' name='blah' required autocomplete='a_state'> 
-						<option>Georgia</option>
-						<option>Florida</option>
-						<option>California</option>
-						<option>Texas</option>
-						<option>Arkansas</option>
-						<option>Delaware</option>
-						<option>New York</option>
-						<option>Illinois</option>
-						<option>Virginia</option>
-						<option>Tennessee</option>
-					</select>
-				</label>
-			</div>
-			<div class='col-md-6 formBlock1-div'>
-				<label for='city' class='form-group'>
-					<span>What city do you live in?</span>
-					<input id='city' type='text' max='20' placeholder='Cleveland' required autocomplete='a_city'> 
-				</label>
-				<label for='area_code' class='form-group'>
-					<span>What is the area code?</span>
-					<input id='area_code' type='text' max='5' placeholder='30011' required autocomplete='a_area_code'> 
-				</label>
-			</div>
-		</div>
-	</div>
-
 		<div class='container'>
-			<div class='formBlock2 col-md-offset-2 col-md-8 col-md-offset-2'>
+			<div class='formBlock1 col-md-offset-1 col-md-3'>
+				<h3>Order Summary</h3>
+				<hr> 
+				<p>You will receive a 8 snack variety box as first box.</p>
+				<p>You will get all your boxes for 11.99 each.</p>
+				<p><span class='glyphicon glyphicon-tags' style='padding-right: 15px'></span>Have a promotional code: 
+				<a class="button" href="#popup2"><u>Enter it here</u></a></p>
+			</div>
+				<div id="popup2" class="overlay">
+					<div class="popup">
+						<a class="close" href="#">&times;</a>
+						<div class="content">
+							<label for='promo'>
+								Please enter your code:
+								<input id='promo' type='text' max='10' placeholder='1A839281EN' autofocus required autocomplete='a_promo'>
+							</label>
+						</div>
+					</div>
+				</div>
+			<div class='formBlock2 col-md-offset-1 col-md-7'>
+				<span>1 of 3 - Details</span>
+			</div>	
+			<div class='formBlock3'>
 				<h3><b>Billing Information</b></h3>
 				<div class='row'>
 					<div class='col-md-6 formBlock2-div'>

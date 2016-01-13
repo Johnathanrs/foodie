@@ -432,115 +432,20 @@ body {
 
 /* forms/signup */
 
-.form input, .form select{
-	display: block;
+.formBlock1 {
+  border: 1px solid #d3d3d3;
+  margin-top: 75px;   
+  height: 300px;
+}
+.formBlock1 h3 {
+  padding-left: 25px; 
+}
+.formBlock2 h3,
+.formBlock2 span {
+  margin-top: 75px;
 }
 
-.formBlock1, .formBlock2, .formBlock3 {
-	margin-top: 5%;
-	border: 1px solid #d3d3d3;
-	box-shadow: 0px 1px 1px 0px; 
-}
 
-.formBlock1 input, .formBlock1 select, .formBlock2 input, .formBlock2 select , .formBlock3 input, .formBlock3 select{
-    border: 1px solid #DADADA;
-    height: 30px;
-    margin-bottom: 16px;
-    margin-right: 6px;
-    margin-top: 2px;
-	outline: 0 none;
-    padding: 3px;
-    width: calc(90%/2);
-    font-size: 15px;
-    line-height: 15px;
-}
-
-#cvv {
-	float: center;
-	margin-right: ;
-}
-
-#check {
-	width: auto; 
-	height: auto;
-	display: inline-block;
-	margin: 40px 0 3px 0;
-}
-
-#exp_date {
-	width: 100%;
-}
-
-#submit {
-	border: 1px solid #d3d3d3;
-	box-shadow: 0px 1px 1px 0px; 
-	border-radius: 8px;
-}
-
-.formBlock1-div , .formBlock2-div, .formBlock3-div{
-    width: calc(100%/2);
-	padding: 0px;
-	margin: 0px;
-}
-
-.formBlock1-div input, .formBlock2-div input, .formBlock3-div input{
-	width: calc(90%);
-}
-
-.formBlock1 h3, .formBlock2 h3, .formBlock3 h3 {
-	text-align: center;
-	padding-bottom: 5%;
-}
-
-progress {
-    background-color: #f3f3f3;
-    height: 25px;
-    border-radius: 9px;
-	width: 100%
-}
-
-.inline {
-	display: inline !important;
-}
-
-section.form, section.order-review{
-  display: block;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cc-warning {
-  font-size: 0.5em;
-  margin-bottom: 1em;
-}
-
-.your-order {
-  border: 1px solid;
-  max-width: 100%;
-}
-
-tr.headings {
-  font-weight: bold;
-}
-
-:not(tr:nth-child(odd)){
-  background-color: yellow;	
-  font-style: italic;
-}
-
-td {
-  padding: 0px;
-  border: 1px solid;
-}
-
-tr:nth-child(even) {
-  background-color: #eee;
-}
-
-.check-correct {
-  margin-top: 10px;
-}
 
 @media only screen and (min-width: 768px) {
   .logo {
